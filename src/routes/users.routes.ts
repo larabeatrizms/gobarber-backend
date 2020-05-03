@@ -40,12 +40,14 @@ usersRouter.patch(
     try {
       const updateUserAvatar = new UpdateUserAvatarService();
 
-      await updateUserAvatar.execute({
+      const user = await updateUserAvatar.execute({
         user_id: request.user.id,
         avatarFilename: request.file.filename,
       });
 
-      return response.json({ ok: true });
+      delete user.password;
+
+      return response.json(user);
     } catch (err) {
       return response.json({ ok: true });
     }
