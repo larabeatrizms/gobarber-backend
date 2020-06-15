@@ -3,7 +3,7 @@ import { isAfter, addHours } from 'date-fns';
 
 // import User from '@modules/users/infra/typeorm/entities/User';
 import AppError from '@shared/errors/AppError';
-import { compare } from 'bcryptjs';
+// import { compare } from 'bcryptjs';
 import IUsersRepository from '../repositories/IUsersRepository';
 import IUserTokensRepository from '../repositories/IUserTokensRepository';
 import IHashProvider from '../providers/HashProvider/models/IHashProvider';
