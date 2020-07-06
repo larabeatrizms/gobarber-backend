@@ -1,6 +1,6 @@
 # 🚀 Backend GoBarber
 
-Projeto desenvolvido no Bootcamp da Rocketseat! Para aplicação de agendamentos de horários com barbeiros, aplicação tanto para barbeiros quanto para seus clientes.
+Projeto desenvolvido no Bootcamp da Rocketseat! Para aplicação de agendamentos de horários com barbeiros, aplicação tanto para barbeiros quanto para seus clientes. Mais sobre a aplicação e suas funcionalidades:
 
 # 🛠 Funcionalidades macros
 
